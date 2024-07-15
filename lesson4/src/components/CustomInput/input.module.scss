@@ -1,0 +1,13 @@
+.baseInput {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+}
