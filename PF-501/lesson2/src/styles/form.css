@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.form-control {
+  max-width: 700px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+.form-control h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-control input {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.form-control input:focus {
+  outline: none;
+}
+.form-control button {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #1131ae;
+  color: white;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.form-control button:hover {
+  background-color: #ffffff;
+  color: #1131ae;
+  border: 1px solid #0a2592;
+}
+
+input[name="number"]::-webkit-inner-spin-button,
+input[name="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  display: inline-block;
+}
+.yes {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+.no {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+input[type="radio"] + label {
+  display: inline-block;
+  margin-left: 10px;
+  width: 20px;
+}
+
+.form-control select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}

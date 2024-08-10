@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/styles/form.css" />
+    <title>Document</title>
+    <script src="../src/js/app.js" defer></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section id="forms">
+        <div class="container">
+          <form class="form-control">
+            <h1>Login Form</h1>
+            <input type="text" required placeholder="please enter the name" />
+            <input type="email" required placeholder="please enter the email" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="password"
+              required
+              aria-controls="password"
+              minlength="8"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              size="4"
+              maxlength="20"
+              placeholder="please enter the password"
+            />
+            <input type="date" />
+            <input type="time" />
+            <input type="datetime-local" />
+            <input type="month" />
+            <input type="week" />
+            <input type="number" name="number" />
+            <input type="range" name="range" />
+            <input type="color" class="color" id="color" name="color" />
+            <input type="file" name="file" />
+            <input type="hidden" name="hidden" />
+            <!-- <input type="image" name="image" /> -->
+            <!-- <input type="reset" name="reset" /> -->
+            <div>
+              <label for="">select category</label>
+              <input type="checkbox" name="checkbox" />
+              <input type="checkbox" name="checkbox" />
+              <input type="checkbox" name="checkbox" />
+              <input type="checkbox" name="checkbox" />
+              <input type="checkbox" name="checkbox" />
+            </div>
+
+            <div>
+              <p>Do you have a car?</p>
+              <label class="yes">
+                <span>YES</span>
+                <input type="radio" name="age" />
+              </label>
+              <label class="no">
+                <span>NO</span>
+                <input type="radio" name="age" />
+              </label>
+            </div>
+            <select name="category" id="category">
+              <option value="AZE">AZERBAYCAN</option>
+              <option value="RU">RUSSIAN</option>
+              <option value="EN">ENGLAND</option>
+              <option value="TR">TURKEY</option>
+            </select>
+            <button type="submit">send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

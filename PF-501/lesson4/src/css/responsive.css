@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+  .form_elements .form_group {
+    flex-basis: 100%;
+  }
+  .form_elements .form_group .form_input {
+    border: 1px solid white;
+  }
+  .form_elements .form_group .form_input input {
+    background-color: transparent;
+    color: white;
+  }
+  .form_elements .primary_btn {
+    border: 1px solid #eee;
+  }
+  .form_elements #form_file {
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  .bg .item {
+    color: white;
+  }
+}
